@@ -101,7 +101,7 @@ class SpeedTyper extends React.Component {
   render() {
     return (
       <div onClick={function() {document.getElementById('type-capture').focus();}} className="container">
-        <div className="score">{ this.state.score + this.state.accurateTo }</div>
+        <div className="score">Score: { this.state.score + this.state.accurateTo }</div>
         <div className={`challenge-row active-row ${this.state.oddOrEven ? 'odd':'even'}`}>
           {
             this.renderWords(this.state.words, this.state.accurateTo)
