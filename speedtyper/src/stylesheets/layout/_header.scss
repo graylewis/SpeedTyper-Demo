@@ -1,0 +1,42 @@
+.app-header {
+  height: 3em;
+  width: 100%;
+  background-color: $dark;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    opacity: .3;
+    color: white;
+    font: normal 1.25em 'Fugaz One';
+    line-height: 3em;
+    width:  33.333%;
+    padding-left: 1em;
+  }
+  .logo:hover {
+    transition: opacity .5s;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .game-title-container {
+    margin-top: 1em;
+    color: white;
+    width:  33.333%;
+
+    .game-title {
+      font: normal 1em 'Source Sans Pro';
+      margin: auto;
+      border-radius: 2px;
+      text-align: center;
+      width: 120px;
+      background-color: $medium;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+  
+  .spacer {
+    width: 33.333%;
+  }
+}

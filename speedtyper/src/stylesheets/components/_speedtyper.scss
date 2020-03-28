@@ -1,0 +1,76 @@
+.container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.score {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  font: normal 20px 'Source Sans Pro';
+  text-align: center;
+  color: white;
+}
+
+.challenge-row {
+  height: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  line-height: 0em;
+  color: white;
+}
+.odd {
+  background-color: $medium;
+}
+
+.even {
+  background-color: $dark;
+}
+
+.challenge-letter {
+  opacity: .6;
+}
+
+.accurate {
+  opacity: 1;
+}
+
+@keyframes blink {
+  from {
+    border-color: rgba(255, 255, 255, 1);
+  }
+  20% {
+    border-color: rgba(255, 255, 255, 1);
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0);
+  }
+  80% {
+    border-color: rgba(255, 255, 255, 1);
+  }
+  to {
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.active-letter {
+  border-right: 2px solid white;
+  animation-duration: 1s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  margin-right: -2px;
+}
+
+.type-capture {
+  text-align: center;
+  font-size: 12px;
+  padding: 1em;
+  height: 4em;
+  background-color: #88bdbc;
+  margin: auto;
+  margin-top: 3em;
+  width: 30em;
+  display: block;
+}

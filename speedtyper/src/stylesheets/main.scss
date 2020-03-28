@@ -1,0 +1,13 @@
+//VARIABLES 
+@import 'abstracts/variables';
+
+//COMPONENTS
+@import 'components/speedtyper';
+
+//LAYOUT
+@import 'layout/header';
+
+body {
+  font-family: 'Consolas';
+  background-color: $dark;
+}
