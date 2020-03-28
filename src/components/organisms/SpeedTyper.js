@@ -5,14 +5,14 @@ class SpeedTyper extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      words: wordGenerator(3),
+      words: wordGenerator(6),
       nextwords: [
-        wordGenerator(3),
-        wordGenerator(3),
-        wordGenerator(3),
-        wordGenerator(3),
-        wordGenerator(3),
-        wordGenerator(3),
+        wordGenerator(6),
+        wordGenerator(6),
+        wordGenerator(6),
+        wordGenerator(6),
+        wordGenerator(6),
+        wordGenerator(6),
       ],
       accurateTo: 0,
       oddOrEven: true,
@@ -35,7 +35,7 @@ class SpeedTyper extends React.Component {
     }
 
     const updateNextWords = () => {
-      this.state.nextwords.push(wordGenerator(3))
+      this.state.nextwords.push(wordGenerator(6))
       return this.state.nextwords
     }
 
