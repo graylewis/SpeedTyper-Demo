@@ -68,9 +68,12 @@
   font-size: 12px;
   padding: 1em;
   height: 4em;
-  background-color: #88bdbc;
+  background-color: $dark;
   margin: auto;
   margin-top: 3em;
   width: 30em;
+  color: white;
+  cursor: default;
   display: block;
+  border: 1px solid white;
 }
