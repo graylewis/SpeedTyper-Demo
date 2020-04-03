@@ -11,3 +11,4 @@ function wordGenerator(n) {
 }
 
 export default wordGenerator;
+

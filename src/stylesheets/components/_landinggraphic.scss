@@ -1,0 +1,89 @@
+.graphic-container {
+  height: 100%;
+  margin-top: 2em;
+
+  .graphic-header {
+    display: flex;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: center;
+    background-color: $light;
+    border: 1px solid white;
+    .logo {
+      color: white;
+      font: normal 1.5em $logo-display;
+      line-height: 60px;
+      padding-right: .5em;
+    }
+    .header-text {
+      color: white;
+      font: bold 20px $main-sans;
+      line-height: 58px;
+    }
+  }
+}
+
+.landing-graphic {
+  width: calc(100% - 2em);
+  margin-right: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
+  display: flex;
+
+  .line {
+    height: 18px;
+    margin-top: 1em;
+    border-radius: 5px;
+  }
+
+  .graphic-col {
+    width: 50%;
+    .line-1 {
+      background-color: #7DE2D1;
+      width: 50%;
+    }
+    .text-line {
+      margin-top: 1em;
+      font: bold 18px $main-sans;
+      color: white;
+    }
+    .line-3 {
+      width: 80%;
+      background-color: #339989;
+    }
+    .line-4 {
+      width: 55%;
+      background-color: #6457A6;
+    }
+    .line-5 {
+      width: 65%;
+      background-color: #5C2751;
+    }
+    .line-6 {
+      width: 90%;
+      background-color: #F1B3A7;
+    }
+    .line-7 {
+      width: 70%;
+      background-color: #FAFF81;
+    }
+    .line-8 {
+      width: 90%;
+      background-color: #38AECC;
+    }
+  }
+
+  .graphic-col-2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    .line {
+      align-self: flex-end;
+    }
+
+    .text-line {
+      text-align: right;
+    } 
+  }
+}

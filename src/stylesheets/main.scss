@@ -3,11 +3,22 @@
 
 //COMPONENTS
 @import 'components/speedtyper';
+@import 'components/registerform';
+@import 'components/landinggraphic';
 
 //LAYOUT
 @import 'layout/header';
 
 body {
-  font-family: 'Fira Code';
+  font-family: $code-mono;
   background-color: $dark;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: underline;
 }

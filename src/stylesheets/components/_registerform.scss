@@ -1,0 +1,97 @@
+.registration-form {
+  width: 35%;
+  margin-left: 2em;
+  margin-top: 2em;  
+  display: flex;
+  flex-direction: column;
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: white;
+    padding-bottom: 1.5em;
+    border-radius: 3px;
+
+    .registration-title {
+      font: bold 24px $main-sans;
+      color: $dark;
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: .5em;
+    }
+
+    .registration-input {
+      padding: 1.25em;
+      padding-left: 1em;
+      font: 600 16px $main-sans;
+      border: 1.5px solid $dark;
+      border-radius: 3px;
+      margin-top: .5em;
+      margin-right: 1.5em;
+      margin-left: 1.5em;
+      height: 2.5em;
+    }
+
+    .tos-container {
+      width: 100%;
+      margin-top: 1em;
+      font: 600 16px $main-sans;
+      display: flex;
+      justify-content: center;
+      
+      input {
+        margin-top: 5px;
+        margin-right: .5em;
+      }
+    }
+
+    .submit-button {
+      width: 150px;
+      height: 40px;
+      margin: auto;
+      text-align: center;
+      background-color: $dark;
+      font: 600 16px $main-sans;
+      color: white;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      margin-top: 1em;
+      border-radius: 2px;
+    }
+  }
+
+  .registration-divider {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    font: 600 16px $main-sans;
+  }
+
+  .skip-registration {
+    border-radius: 3px;
+    width: 100%;
+    background-color: white;
+    font: bold 18px $main-sans;
+    text-align: center;
+    padding-top: .75em;
+
+    a {
+      text-decoration: none;
+    }
+
+    .skip-registration-button {
+      text-align: center;
+      margin: 1em;
+      margin-top: .5em;
+      height: 2.5em;
+      font: 600 16px $main-sans;
+      color: white;
+      border-radius: 3px;
+      background-color: $light;
+      line-height: 40px;
+    }
+  }
+}

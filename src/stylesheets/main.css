@@ -107,8 +107,234 @@
   border: 1px solid white;
 }
 
-.app-header {
-  height: 3em;
+.registration-form {
+  width: 35%;
+  margin-left: 2em;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.registration-form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  background-color: white;
+  padding-bottom: 1.5em;
+  border-radius: 3px;
+}
+
+.registration-form form .registration-title {
+  font: bold 24px "Source Sans Pro";
+  color: #112d32;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+.registration-form form .registration-input {
+  padding: 1.25em;
+  padding-left: 1em;
+  font: 600 16px "Source Sans Pro";
+  border: 1.5px solid #112d32;
+  border-radius: 3px;
+  margin-top: .5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  height: 2.5em;
+}
+
+.registration-form form .tos-container {
+  width: 100%;
+  margin-top: 1em;
+  font: 600 16px "Source Sans Pro";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.registration-form form .tos-container input {
+  margin-top: 5px;
+  margin-right: .5em;
+}
+
+.registration-form form .submit-button {
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  background-color: #112d32;
+  font: 600 16px "Source Sans Pro";
+  color: white;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 1em;
+  border-radius: 2px;
+}
+
+.registration-form .registration-divider {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  font: 600 16px "Source Sans Pro";
+}
+
+.registration-form .skip-registration {
+  border-radius: 3px;
+  width: 100%;
+  background-color: white;
+  font: bold 18px "Source Sans Pro";
+  text-align: center;
+  padding-top: .75em;
+}
+
+.registration-form .skip-registration a {
+  text-decoration: none;
+}
+
+.registration-form .skip-registration .skip-registration-button {
+  text-align: center;
+  margin: 1em;
+  margin-top: .5em;
+  height: 2.5em;
+  font: 600 16px "Source Sans Pro";
+  color: white;
+  border-radius: 3px;
+  background-color: #40798C;
+  line-height: 40px;
+}
+
+.graphic-container {
+  height: 100%;
+  margin-top: 2em;
+}
+
+.graphic-container .graphic-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2em;
+  margin-right: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #40798C;
+  border: 1px solid white;
+}
+
+.graphic-container .graphic-header .logo {
+  color: white;
+  font: normal 1.5em "Fugaz One";
+  line-height: 60px;
+  padding-right: .5em;
+}
+
+.graphic-container .graphic-header .header-text {
+  color: white;
+  font: bold 20px "Source Sans Pro";
+  line-height: 58px;
+}
+
+.landing-graphic {
+  width: calc(100% - 2em);
+  margin-right: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing-graphic .line {
+  height: 18px;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+.landing-graphic .graphic-col {
+  width: 50%;
+}
+
+.landing-graphic .graphic-col .line-1 {
+  background-color: #7DE2D1;
+  width: 50%;
+}
+
+.landing-graphic .graphic-col .text-line {
+  margin-top: 1em;
+  font: bold 18px "Source Sans Pro";
+  color: white;
+}
+
+.landing-graphic .graphic-col .line-3 {
+  width: 80%;
+  background-color: #339989;
+}
+
+.landing-graphic .graphic-col .line-4 {
+  width: 55%;
+  background-color: #6457A6;
+}
+
+.landing-graphic .graphic-col .line-5 {
+  width: 65%;
+  background-color: #5C2751;
+}
+
+.landing-graphic .graphic-col .line-6 {
+  width: 90%;
+  background-color: #F1B3A7;
+}
+
+.landing-graphic .graphic-col .line-7 {
+  width: 70%;
+  background-color: #FAFF81;
+}
+
+.landing-graphic .graphic-col .line-8 {
+  width: 90%;
+  background-color: #38AECC;
+}
+
+.landing-graphic .graphic-col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.landing-graphic .graphic-col-2 .line {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.landing-graphic .graphic-col-2 .text-line {
+  text-align: right;
+}
+
+.header-container {
+  height: 60px;
   width: 100%;
   background-color: #112d32;
   display: -webkit-box;
@@ -119,30 +345,41 @@
           justify-content: space-between;
 }
 
-.app-header .logo {
-  opacity: .3;
+.header-container .promo {
+  font: normal 16px "Source Sans Pro";
+  line-height: 60px;
+  padding-right: 1em;
   color: white;
-  font: normal 1.25em 'Fugaz One';
-  line-height: 3em;
-  width: 33.333%;
-  padding-left: 1em;
 }
 
-.app-header .logo:hover {
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+.header-container .logo {
+  opacity: .3;
+  color: white;
+  font: normal 1.5em "Fugaz One";
+  line-height: 60px;
+  width: 33.333%;
+  padding-left: 1em;
+  -webkit-transition: ease .25s;
+  transition: ease .25s;
+}
+
+.header-container .logo a {
+  text-decoration: none;
+}
+
+.header-container .logo:hover {
   cursor: pointer;
   opacity: 1;
 }
 
-.app-header .game-title-container {
+.header-container .game-title-container {
   margin-top: 1em;
   color: white;
   width: 33.333%;
 }
 
-.app-header .game-title-container .game-title {
-  font: normal 1em 'Source Sans Pro';
+.header-container .game-title-container .game-title {
+  font: normal 1em "Source Sans Pro";
   margin: auto;
   text-align: center;
   width: 120px;
@@ -153,12 +390,30 @@
   padding-left: 20px;
 }
 
-.app-header .spacer {
+.header-container .spacer {
   width: 33.333%;
 }
 
+.landing-header {
+  background-color: #254E58;
+}
+
 body {
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   background-color: #112d32;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+a {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
