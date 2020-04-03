@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a personal project by Gray Lewis (linkedin.com/in/gray-lewis).
+
+I find typing to be a relaxing, enjoyable way to warm up my mind in the morning. I wanted to make a no-frills typing game that focuses on a clean interface, responsive feel, and statistical collection. 
 
 ## Available Scripts
 
